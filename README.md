@@ -11,4 +11,4 @@ git clone https://github.com/merwan/setup.git
 ./setup/setup.sh
 ```
 
-See also http://github.com/merwan/dotfile for more details.
+See also http://github.com/merwan/dotfiles for more details.
