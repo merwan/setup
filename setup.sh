@@ -26,10 +26,10 @@ sudo apt-get install -y rlwrap
 # git pull and install dotfiles as well
 cd $HOME
 if [ -d ./dotfiles/ ]; then
-    mv dotfiles dotfiles.old
+    mv -Tf dotfiles dotfiles~
 fi
 if [ -d .vim/ ]; then
-    mv .vim .vim~
+    mv -Tf .vim .vim~
 fi
 git clone --recursive https://github.com/merwan/dotfiles-ec2.git ~/dotfiles
 ln -sb dotfiles/.vimrc .
