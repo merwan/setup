@@ -33,4 +33,6 @@ fi
 git clone --recursive https://github.com/merwan/dotfiles-ec2.git ~/dotfiles
 ln -sb dotfiles/.vimrc .
 ln -s dotfiles/.vim .
+ln -s dotfiles/.gitconfig .
+ln -s dotfiles/.githelpers .
 
